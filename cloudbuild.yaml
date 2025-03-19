@@ -18,7 +18,7 @@ steps:
       [
         'build',
         '-t',
-        'us-east1-docker.pkg.dev/$PROJECT_ID/img-studio:latest',
+        'gcr.io/$PROJECT_ID/img-studio/img-studio:latest',
         '--build-arg',
         '_NEXT_PUBLIC_PROJECT_ID=$PROJECT_ID',
         '--build-arg',
@@ -42,7 +42,7 @@ steps:
         '.',
       ]
 images:
-  - 'us-east1-docker.pkg.dev/$PROJECT_ID/img-studio:latest'
+  - 'gcr.io/$PROJECT_ID/img-studio/img-studio:latest'
 
 serviceAccount: 'projects/imagen3-project-rfn/serviceAccounts/241693452386-compute@developer.gserviceaccount.com'
 options:
