@@ -46,3 +46,5 @@ images:
 
 options:
   logging: CLOUD_LOGGING_ONLY
+
+serviceAccount: 'projects/imagen3-project-rfn/serviceAccounts/241693452386-compute@developer.gserviceaccount.com'
