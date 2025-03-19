@@ -42,7 +42,7 @@ steps:
         '.',
       ]
 images:
-  - 'gcr.io/$PROJECT_ID/img-studio:latest'
+  - 'us-east1-docker.pkg.dev/$PROJECT_ID/img-studio:latest'
 
 serviceAccount: 'projects/imagen3-project-rfn/serviceAccounts/241693452386-compute@developer.gserviceaccount.com'
 options:
